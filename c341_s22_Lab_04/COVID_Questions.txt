@@ -1,0 +1,35 @@
+1. Are you planning on coming to campus today?
+
+2. Please take your temperature. Is it above 100.4 F?
+
+3. Do you have a NEW ONSET of any of the following symptoms?
+(not related to a pre-existing or already diagnosed health condition including seasonal allergies)
+
+Fever or chills
+Cough
+Shortness of breath or difficulty breathing
+Fatigue
+Muscle or body aches
+Headache
+New loss of taste or smell
+Sore throat
+Congestion or runny nose
+Nausea or vomiting
+Diarrhea
+
+4. Do you have a NEW ONSET of any of the following symptoms?
+(not related to a pre-existing or already diagnosed health condition including seasonal allergies)
+
+Shortness of Breath or difficulty/trouble breathing
+Persistent pain or pressure in the chest
+New confusion
+Inability to wake or stay awake
+Bluish lips or face
+
+5. In the last 10 days, have you:
+Tested positive for COVID-19?
+Been in close contact with someone who:
+Has symptoms of COVID-19?
+Has tested positive in the last 10 days?
+
+6. In the last 14 days have you or any members of your household traveled outside of PA?
