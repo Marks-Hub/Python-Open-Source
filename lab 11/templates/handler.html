@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>{% if result["name"] %}
+         Hey there {{result["name"]}} <br />             
+      {% else %}
+         NO NAME?
+      {% endif %}
+   </p>
+
+   <p>        
+      {% set frame_name, frame_cost = result['costOfFrames'].split('|') %}
+      Frame name: {{ frame_name }}<br />
+      Frame cost: {{frame_cost}}<br />
+      <br />
+   
+   <p>
+    length: 
+    {{result["length"]}}
+ </p>
+ <p>
+    Width: 
+    {{result["width"]}}
+ </p>
+ <p>
+   Price:
+   {% set w = result['width'] | float %}{# cast width as float #}
+   {% set l = result['length'] | float %}{# cast length as float #}
+   {%set p = 10.40 + frame_cost|float * (w+l)%}
+   ${{'%0.2f' % p|float}}
+</p>
+   </p>
+   <!-- What is JINJA? -->
+   <p>
+      
+   </p>
+{% endblock content %}
