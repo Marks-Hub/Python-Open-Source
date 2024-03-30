@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block title %}
+{{title}}
+{% endblock title %}
+
+{% block stuff %}
+<h1>First things first (hard-coded on first.html only)</h1>
+<div>
+   <span>Name: </span>
+   {{pass1.name}}
+</div>
+<div>
+   <span>Occupation: </span>
+   {{pass1.occupation}}
+</div>
+{% for noirss in noir.films %}
+<h5>{{noirss.title}} </h5>
+<h6>{{noirss.desc}} </h6>
+<h4>{{noirss.still}} </h4>
+<img src="/static/FilmNoir/{{noirss.still}}" />
+<!-- start at "/" (home/root) then go into static then images  -->
+<img src="../static/FilmNoir/{{noirss.still}}" />
+<!-- start where you are (template) then .. go up a level then static the image -->
+<br />
+{% endfor %}
+
+{% endblock stuff%}

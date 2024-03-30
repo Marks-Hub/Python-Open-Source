@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{% block title %}{% endblock %}</title>
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='lab9CSS.css')}}" />
+   </head>
+
+   <body>
+      <h1>Common Stuff</h1>
+      <header class="header">
+         This header is shared by all pages.
+         <p>If you update a style, then you might need to press
+            Ctrl+Shift+R to see those changes (to force a cache refresh).
+         </p>
+      </header>
+      <!-- 
+         adding some common navigation to the  
+         shared layout HTML
+         added some navigation styling to the css
+      -->
+      <h4>Navigation:</h4>
+      <ul class="nav">
+         <li><a href="/Films" >Films</a></li>
+         <li><a href="/About">About</a></li>
+       </ul>
+      {% block stuff %}{% endblock %}
+      <footer class="header">This footer is shared by all pages.</footer>
+      <!-- I gave the "semantic" footer a header class styling -->
+   </body>
+
+</html>
