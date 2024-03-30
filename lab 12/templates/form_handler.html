@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+<p>
+   Your order:<br />
+   Salad: {{result["salad"]}}<br />  
+   Dressing: {{result["dressing"]}}<br />  
+   
+   
+   Fixings: {# fixings come from a SelectMultipleField #}
+   {# so we get a list that we will loop over #}   
+      {% for top in result.getlist("fixing") %}
+         {{top}}&nbsp;        
+               
+      {% endfor %} <br />
+      Price:
+      {{result.getlist("fixing")|length * 0.50 + 3.50}}   
+   
+</p>
+
+{% endblock content %}

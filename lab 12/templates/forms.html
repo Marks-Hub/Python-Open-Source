@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.salad.label}}
+      <span class="error">{{ form.salad.errors | join("|") }}</span><br />
+      {{form.salad}}
+      {# No class -- the list will have bullets next to radio buttons #}
+   </div>
+   <div>
+      {{form.fixing.label}}
+      <span class="error">{{ form.fixing.errors | join("|") }}</span><br />
+      {{form.fixing(class_="no_bullets")}}
+      {# Note that the no_bullets class is applied above #}
+   </div>
+   <div>
+      {{form.dressing.label}}
+      <span class="error">{{ form.dressing.errors | join("|") }}</span><br />
+      {{form.dressing}}
+      {# class was applied by WTF #}
+   </div>
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

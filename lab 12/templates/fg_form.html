@@ -1,0 +1,38 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}} {% endblock title %}
+{% block header %} {{header}} {% endblock header %}
+
+{% block content %}
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.burger.label}}
+      <span class="error">{{ form.burger.errors | join("|") }}</span><br />
+      {{form.burger}}
+      {# No class -- the list will have bullets next to radio buttons #}
+   </div>
+   <div>
+      {{form.level.label}}
+      <span class="error">{{ form.level.errors | join("|") }}</span><br />
+      {{form.level(class_="no_bullets")}}
+      {# Note that the no_bullets class is applied above #}
+   </div>
+   <!-- TOPPINGS -->
+   <div>
+      {{form.toppings.label}}
+      <span class="error">{{ form.toppings.errors | join("|") }}</span>
+      {{form.toppings}}
+   </div>
+   <div>
+      {{form.fries.label}}
+      <span class="error">{{ form.fries.errors | join("|") }}</span><br />
+      {{form.fries}}
+      {# class was applied by WTF #}
+   </div>
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}
