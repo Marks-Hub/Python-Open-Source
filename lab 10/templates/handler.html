@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+  <p>
+      Hello 
+      {{result["name"]}}
+      {# Jinja comment #}
+   </p> 
+   <p>
+      Tip: 
+      {{result["tips"]}}
+      {# app4py passes the user input from the form to the form handler #}
+      {# the data was called result and gets used like a dictionary #}
+      {# the key was named in forms.py #}
+      {# the value is what was entered by user on form #}
+   </p>
+   <p>
+      Bill: 
+      {{result['bill']}}<br />      
+   </p>
+{% endblock content %}

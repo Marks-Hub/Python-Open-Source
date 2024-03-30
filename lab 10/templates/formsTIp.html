@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   <div>
+      {{form.name.label}} <br />
+      {{form.name(size=30)}}
+   </div>
+   <div>
+      {{form.tips.label}} <br />
+      {{form.tips}}
+   </div>
+   <div>
+      {{form.bill.label}} <br />
+      {{form.bill}}
+   </div>
+   <!-- 
+      The form uses Jinja but you will not see it 
+      if you look at the source code when the form 
+      is in the browser 
+    -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}
