@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Your order:<br />
+      {% set Sundae_name, Sundae_price = result['Scooops'].split('|') %}
+      {% set price = Sundae_price | float %}
+      {{Sundae_name}}<br />
+      {{result["Flavors"]}}<br />
+      Toppings: 
+      {% for top in result.getlist("Toppings") %}
+         {{top}}&nbsp;
+      {% endfor %} <br />
+      {% set top_num = result.getlist("Toppings")|length%}
+      {{ top_num }} toppings</span>
+      <br />
+      {% set total = price %}
+      Total: ${{'%0.2f' % (total |float + (top_num * 0.25))}}
+      
+   </p>
+
+{% endblock content %}

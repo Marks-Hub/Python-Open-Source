@@ -1,0 +1,64 @@
+{
+    "scoops": [
+       {
+          "name": "Scoop 1",
+          "price": 1.75
+       },
+       {
+          "name": "Scoop 2",
+          "price": 2.75
+       },
+       {
+          "name": "Scoop 3",
+          "price": 3.75
+       }
+    ],
+
+    "flavors": [
+        {
+           "name": "Vanilla"
+        },
+        {
+           "name": "Chocolate"           
+        },
+        {
+           "name": "Butter Pecan"
+        },
+        {
+           "name": "Mint Chocolate Chip"           
+        },
+        {
+           "name": "Cookies 'N Cream"           
+        },
+        {
+           "name": "Coffee"           
+        }
+     ],
+
+     "toppings": [
+        {
+           "name": "Hot Fudge"
+        },
+        {
+           "name": "Peanut Butter"
+        },
+        {
+           "name": "Marshmallow"
+        },
+        {
+           "name": "Rainbow Sprinkles"
+        },
+        {
+           "name": "Chocolate Sprinkles"
+        },
+        {
+           "name": "Peanuts"
+        },
+        {
+           "name": "Walnuts"
+        },
+        {
+           "name": "Strawberries"
+        }
+     ]
+}

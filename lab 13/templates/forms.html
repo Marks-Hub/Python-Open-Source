@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+   <!-- BURGERS -->
+   <div>
+      {{form.Scooops.label}}
+      <span class="error">{{ form.Scooops.errors | join("|") }}</span>
+      <br />
+      {{form.Scooops}}
+   </div>
+   <!-- LEVELS  -->
+   <div>
+      {{form.Flavors.label}}
+      <span class="error">{{ form.Flavors.errors | join("|") }}</span>
+      <br />
+      {{form.Flavors}}
+   </div>
+   <!-- TOPPINGS -->
+   <div>
+      {{form.Toppings.label}}
+      <span class="error">{{ form.Toppings.errors | join("|") }}</span>
+      <br />
+      {{form.Toppings}}
+   </div>
+
+   <br />
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}
