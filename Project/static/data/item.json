@@ -1,0 +1,115 @@
+{
+    "Bulky_machines":
+    [
+    {
+    "brand":"Tesla",
+    "owner":"Elon Musk",
+    "cars":[
+    {
+    "nameofCar":"tesla model x",
+    "Manufactur_year":"2015"
+    },
+    {
+    "nameofCar":"Tesla Model Y",
+    "Manufactur_year":"2020"
+    },
+    {
+    "nameofCar":"Tesla Model S",
+    "Manufactur_year":"2012"
+    },
+    {
+    "nameofCar":"Tesla Model 3",
+    "Manufactur_year":"2017"
+    }
+    ]
+    },
+    {
+    "brand":"Honda",
+    "owner":"Soichiro Honda",
+    "cars":[
+    {
+    "nameofCar":"Honda Civic",
+    "Manufactur_year":"2022"
+    },
+    {
+    "nameofCar":"Honda CR-V",
+    "Manufactur_year":"1997"
+    },
+    {
+    "nameofCar":"Honda Accord",
+    "Manufactur_year":"2011"
+    },
+    {
+    "nameofCar":"Honda HR-V",
+    "Manufactur_year":"2027"
+    }
+    ]
+    },
+    {
+    "brand":"Nissan",
+    "owner":"Makoto Uchida",
+    "cars":[
+    {
+    "nameofCar":"Nissan Versa",
+    "Manufactur_year":"2002"
+    },
+    {
+    "nameofCar":"Nissan Sentra",
+    "Manufactur_year":"2009"
+    },
+    {
+    "nameofCar":"Nissan Frontier",
+    "Manufactur_year":"2012"
+    },
+    {
+    "nameofCar":"Nissan Altima",
+    "Manufactur_year":"2061"
+    }
+    ]
+    },
+    {
+    "brand":"Subaru",
+    "owner":"Kenji Kita",
+    "cars":[
+    {
+    "nameofCar":"Subaru Outback",
+    "Manufactur_year":"2014"
+    },
+    {
+    "nameofCar":"Subaru Forester",
+    "Manufactur_year":"20016"
+    },
+    {
+    "nameofCar":"Subaru Crosstrek",
+    "Manufactur_year":"2019"
+    },
+    {
+    "nameofCar":"Subaru WRX",
+    "Manufactur_year":"2067"
+    }
+    ]
+    },
+    {
+    "brand":"Toyota",
+    "owner":"Kiichiro Toyoda",
+    "cars":[
+    {
+    "nameofCar":"Toyota Corolla",
+    "Manufactur_year":"2018"
+    },
+    {
+    "nameofCar":"Toyota RAV4",
+    "Manufactur_year":"2006"
+    },
+    {
+    "nameofCar":"Toyota Land Cruiser",
+    "Manufactur_year":"2021"
+    },
+    {
+    "nameofCar":"Toyota Camry",
+    "Manufactur_year":"3000"
+    }
+    ]
+    }
+    ]
+    }

@@ -1,0 +1,44 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.nameofCar.label}}
+      <span class="error">{{ form.nameofCar.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.nameofCar}}
+   </div>
+ 
+   <div>
+      {{form.Manufactur_year.label}}
+      <span class="error">{{ form.Manufactur_year.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.Manufactur_year}}
+   </div>
+
+   <div>
+      {{form.Manufacturer_no.label}}     
+   </div>
+   <div>
+      {{form.Manufacturer_no}}
+   </div>
+
+   
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% for field, errors in form.errors.items() %}
+<div class="alert alert-error">
+    {{ form[field].label }}: {{ ', '.join(errors) }}
+</div>
+{% endfor %}
+{% endblock content %}

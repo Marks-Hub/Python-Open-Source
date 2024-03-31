@@ -1,0 +1,29 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.brand.label}}
+      <span class="error">{{ form.brand.errors | join("|") }}</span>
+      <br />
+      {{form.brand}}
+   </div>
+ 
+   <div>
+      {{form.owner.label}}
+      <span class="error">{{ form.owner.errors | join("|") }}</span>
+      <br />
+      {{form.owner}}
+   </div>
+
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

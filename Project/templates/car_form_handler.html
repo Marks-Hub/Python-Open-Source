@@ -1,0 +1,16 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Name of car: {{ result["nameofCar"] }} 
+   </p>
+   <p>
+      Manufactur year: {{ result["Manufactur_year"] }} 
+   </p>
+   <p>
+      manufactur No: {{ result["Manufacturer_no"] }} 
+   </p>
+{% endblock content %}

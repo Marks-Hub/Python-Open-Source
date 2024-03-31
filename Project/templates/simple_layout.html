@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>{% block title %}{% endblock %}</title>
+   <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='simple.css')}}" />
+</head>
+<body>
+   <h1>{% block header %}{% endblock %}</h1>
+   <h4>Navigation:</h4>
+   <ul class="nav">
+      <li><a href="/artist_form" >Add manufacturer</a></li>
+      <li><a href="/painting_form">Add Car</a></li>
+      <li><a href="/planet_table">See table</a></li>
+    </ul>
+    <br /><br />
+   {% block content %}{% endblock %}
+
+</body>
+</html>

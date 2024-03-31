@@ -1,0 +1,14 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Brand Name: {{ result["brand"] }} 
+   </p>
+   <p>
+      Owner of Brand: {{ result["owner"] }} 
+   </p>
+
+{% endblock content %}
