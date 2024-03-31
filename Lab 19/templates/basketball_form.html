@@ -1,0 +1,60 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+   <div>
+      {{form.POS.label}}
+      <span class="error">{{ form.POS.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.POS}}
+   </div>
+
+   <div>
+    {{form.name.label}}
+    <span class="error">{{ form.name.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.name}}
+ </div>
+
+    <div>
+      {{form.age.label}}
+      <span class="error">{{ form.age.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.age}}
+   </div>
+
+   <div>
+    {{form.WT.label}}
+    <span class="error">{{ form.WT.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.WT}}
+ </div>
+    <div>
+      {{form.College.label}}
+      <span class="error">{{ form.College.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.College}}
+   </div>
+
+   
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% for field, errors in form.errors.items() %}
+<div class="alert alert-error">
+    {{ form[field].label }}: {{ ', '.join(errors) }}
+</div>
+{% endfor %}
+{% endblock content %}
+ss

@@ -1,0 +1,26 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+    POS: {{ result["POS"] }} 
+   </p>
+
+   <p>
+    name: {{ result["name"] }} 
+   </p>
+
+   <p>
+    age: {{ result["age"] }} 
+   </p>
+
+   <p>
+    WT: {{ result["WT"] }} 
+   </p>
+
+   <p>
+    College: {{ result["College"] }} 
+   </p>
+{% endblock content %}
