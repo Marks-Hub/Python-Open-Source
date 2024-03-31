@@ -1,0 +1,28 @@
+{
+    "poets":
+    [
+    {
+    "name":"Manet",
+
+    "poems":[
+    {
+    "poemss":"Was in a rush so didn't look up poems"
+    },
+    {
+    "poemss":"This is their second poem, yodolo"
+    }
+    ]
+    },
+    {
+    "name":"Seurat",
+    "poems":[
+    {
+    "poemss":"Yeah, so this is another poem"
+    },
+    {
+    "poemss":"Last poem! Yayyyyyyyyyyyyy!"
+    }
+    ]
+    }
+    ]
+    }

@@ -1,0 +1,13 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Poem: {{ result["poemss"] }} 
+   </p>
+
+      Poet ID: {{ result["poet_id"] }} 
+   </p>
+{% endblock content %}
