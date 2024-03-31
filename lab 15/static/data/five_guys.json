@@ -1,0 +1,31 @@
+{
+   "burgers": [
+      {
+         "name": "Hamburger",
+         "abbr": "HB",
+         "price": 6.19
+      },
+      {
+         "name": "Cheeseburger",
+         "abbr": "CB",
+         "price": 6.89
+      },
+      {
+         "name": "Bacon Hamburger",
+         "abbr": "BHB",
+         "price": 7.19
+      },
+      {
+         "name": "Bacon Cheeseburger",
+         "abbr": "BCB",
+         "price": 7.89
+      }
+   ],
+   "levels":[
+      {"name":"Rare"},
+      {"name":"Medium Rare"},
+      {"name":"Medium"},
+      {"name":"Medium Well"},
+      {"name":"Well"}
+   ]
+}

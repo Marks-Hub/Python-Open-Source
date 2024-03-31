@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   {% if session['email'] is defined %}
+      Hi {{ session['email'] }}
+   {% else %}
+      BAD
+   {% endif %}<br /><br />
+    
+   Pain relievers:
+   {% for pain in result.getlist("reliever") %}
+   {{pain}}&nbsp;        
+   {% endfor %} <br /><br />
+
+   Age Range:
+   {{result["age"]}}<br /><br />
+
+   {% if result.getlist("reliever")|length >= 3 %}
+      Discuss pain relievers with your physician
+   {% else %}
+      Your good
+   {% endif %}<br /><br />
+{% endblock content %}

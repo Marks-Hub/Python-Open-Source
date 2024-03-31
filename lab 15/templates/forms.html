@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+   <!-- USERNAME -->
+   <div>
+      {{form.email.label}}
+      <span class="error">{{ form.email.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.email}}
+   </div>
+   <!-- Age Range -->
+   <div>
+    {{form.age.label}}
+    <span class="error">{{ form.age.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.age}}
+ </div>
+   <!-- Pain reliever -->
+ <div>
+    {{form.reliever.label}}
+    <span class="error">{{ form.reliever.errors | join("|") }}</span>
+ </div>
+ <div>
+    {{form.reliever}}
+ </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+
+<p>Try to go to the Welcome page before you have established a 
+   session. Compare that to if you have established a session. 
+   A session generally lasts as long as the browser is not 
+   closed. 
+</p>
+<ul class="nav">
+   <li><a href="/welcome" >Welcome</a></li>
+ </ul>
+ {% endblock content %}
