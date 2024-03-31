@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   <!-- CHAPTER -->
+   <div>
+      <label for="category">
+         {{form.chapter.label}}
+      </label>
+      <span>
+         {{form.chapter}}
+      </span>
+   </div>
+   
+</form>
+
+<h2>Cookie</h2>
+<p>
+   {% if request.cookies.get('chapter') %}
+   The last chapter you saw was {{request.cookies.get('chapter')}}
+   {% else %}
+      The chapter cookie was lost
+   {% endif %}
+</p>
+<p>
+   {% if request.cookies.get('chapter_2') %}
+   The last chapter you saw was {{request.cookies.get('chapter')}}
+   {% else %}
+      The chapter_2 cookie was lost
+   {% endif %}
+</p>
+{% endblock content %}

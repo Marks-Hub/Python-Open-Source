@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <!-- CATEGORY -->
+
+   <!-- YEAR -->
+   <p>
+      Chapter Number: 
+      {{result["chapter"]}}
+   </p>
+   <p>
+    XKCD Data:<br />
+      <ol>
+        Month: {{XKCD_info["month"]}} </br>
+        Year: {{XKCD_info["year"]}}</br>
+        Image: {{XKCD_info["img"]}}</br>
+        <img src="{{XKCD_info["img"]}}" alt="Comic image" width="400" height="400">
+
+      </ol>
+   </p>
+   <h3>Cookie</h3>
+   <p>
+      {% if request.cookies.get('chapter') %}
+         The last chapter you saw was  {{request.cookies.get('chapter')}}
+      {% else %}
+         The category cookie was lost
+      {% endif %}
+   </p>
+   <p>
+      {% if request.cookies.get('chapter_2') %}
+      The last chapter you saw was {{request.cookies.get('chapter_2')}}
+      {% else %}
+         The category_2 cookie was lost
+      {% endif %}
+   </p>
+
+{% endblock content %}
