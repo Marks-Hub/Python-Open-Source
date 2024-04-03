@@ -1,0 +1,16 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Movie Code: {{ result["movieCode"] }} 
+   </p>
+   <p>
+      Movie Title: {{ result["movieTitle"] }} 
+   </p>
+   <p>
+      Movie Year: {{ result["movieYear"] }} 
+   </p>
+{% endblock content %}

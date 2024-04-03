@@ -1,0 +1,87 @@
+SPOD|2001: A Space Odyssey|1968
+42ST|42nd Street|1933
+AFGM|A Few Good Men|1992
+LTO|A League of Their Own|1992
+SND|A Streetcar Named Desire|1951
+ARPL|Airplane!|1980
+AAE|All About Eve|1950
+ANCR|Animal Crackers|1930
+ANHA|Annie Hall|1977
+APNO|Apocalypse Now|1979
+A13|Apollo 13|1995
+MAME|Auntie Mame|1958
+BTF|Beyond the Forest|1949
+BOCL|Bonnie and Clyde|1967
+CDSH|Caddyshack|1980
+CSBL|Casablanca|1942
+CHNT|Chinatown|1974
+CIKA|Citizen Kane|1941
+CHL|Cool Hand Luke|1967
+DPS|Dead Poets Society|1989
+DIDA|Dirty Dancing|1987
+DIHA|Dirty Harry|1971
+DDA|Dog Day Afternoon|1975
+DRNO|Dr. No|1962
+DRST|Dr. Strangelove|1964
+DRCL|Dracula|1931
+ET|E.T. the Extra-Terrestrial|1982
+FOD|Field of Dreams|1989
+FOGU|Forrest Gump|1994
+FRNK|Frankenstein|1931
+FUGI|Funny Girl|1968
+GLDF|Goldfinger|1964
+GWTW|Gone with the Wind|1939
+GRHO|Grand Hotel|1932
+IHN|In the Heat of the Night|1967
+JWS|Jaws|1975
+JEMA|Jerry Maguire|1996
+KIKO|King Kong|1933
+KRAA|"Knute Rockne| All American"|1940
+LICA|Little Caesar|1931
+LOST|Love Story|1970
+MAMA|Marathon Man|1976
+MICO|Midnight Cowboy|1969
+MODE|Mommie Dearest|1981
+MNST|Moonstruck|1987
+ANHO|National Lampoon's Animal House|1978
+NTWK|Network|1976
+NOVO|"Now| Voyager"|1942
+OGP|On Golden Pond|1981
+OTWF|On the Waterfront|1954
+POA|Planet of the Apes|1968
+PLTG|Poltergeist|1982
+PSCH|Psycho|1960
+RCKY|Rocky|1976
+SCRF|Scarface|1983
+SHN|Shane|1953
+SDHW|She Done Him Wrong|1933
+SLIH|Some Like It Hot|1959
+SOD|Sons of the Desert|1933
+SOGR|Soylent Green|1973
+STWA|Star Wars|1977
+SUIM|Sudden Impact|1983
+SUBO|Sunset Boulevard|1950
+TADR|Taxi Driver|1976
+TII|Terminator 2: Judgment Day|1991
+ASH|The Adventures of Sherlock Holmes|1939
+TGF|The Godfather|1972
+GFII|The Godfather Part II|1974
+GRD|The Graduate|1967
+JASI|The Jazz Singer|1927
+LRTT|The Lord of the Rings: The Two Towers|2002
+TMF|The Maltese Falcon|1941
+NANI|The Naughty Nineties|1945
+PRYA|The Pride of the Yankees|1942
+SHNG|The Shining|1980
+SILA|The Silence of the Lambs|1991
+SISE|The Sixth Sense|1999
+TRM|The Terminator|1984
+TSM|The Treasure of the Sierra Madre|1948
+TWOO|The Wizard of Oz|1939
+TTNC|Titanic|1997
+HHN|To Have and Have Not|1944
+TOGU|Top Gun|1986
+WAST|Wall Street|1987
+WHMS|When Harry Met Sally...|1989
+WHHE|White Heat|1949
+YDD|Yankee Doodle Dandy|1942

@@ -1,0 +1,23 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ forms.csrf_token }}
+
+   <div>
+      {{forms.quotes_id.label}}
+      <span class="error">{{ forms.quotes_id.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{forms.quotes_id}}
+   </div>
+ 
+   <!-- SUBMIT -->
+   <div>
+      {{forms.submit()}}
+   </div>
+</form>
+{% endblock content %}

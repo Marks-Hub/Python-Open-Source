@@ -1,0 +1,36 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.movieCode.label}}
+      <span class="error">{{ form.movieCode.errors | join("|") }}</span>
+      <br />
+      {{form.movieCode}}
+   </div>
+ 
+   <div>
+      {{form.movieTitle.label}}
+      <span class="error">{{ form.movieTitle.errors | join("|") }}</span>
+      <br />
+      {{form.movieTitle}}
+   </div>
+
+   <div>
+      {{form.movieYear.label}}
+      <span class="error">{{ form.movieYear.errors | join("|") }}</span>
+      <br />
+      {{form.movieYear}}
+   </div>
+
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

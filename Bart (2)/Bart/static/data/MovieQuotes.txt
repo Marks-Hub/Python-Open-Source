@@ -1,0 +1,100 @@
+1|Frankly, my dear, I don't give a damn.|Rhett Butler|Clark Gable|GWTW
+2|I'm gonna make him an offer he can't refuse.|Vito Corleone|Marlon Brando|TGF
+3|You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.|Terry Malloy|Marlon Brando|OTWF
+4|Toto, I've a feeling we're not in Kansas anymore.|Dorothy Gale|Judy Garland|TWOO
+5|Here's looking at you, kid.|Rick Blaine|Humphrey Bogart|CSBL
+6|Go ahead, make my day.|Harry Callahan|Clint Eastwood|SUIM
+7|All right, Mr. DeMille, I'm ready for my close-up.|Norma Desmond|Gloria Swanson|SUBO
+8|May the Force be with you.|Han Solo|Harrison Ford|STWA
+9|Fasten your seatbelts. It's going to be a bumpy night.|Margo Channing|Bette Davis|AAE
+10|You talkin' to me?|Travis Bickle|Robert De Niro|TADR
+11|What we've got here is failure to communicate.|Captain|Strother Martin|CHL
+12|I love the smell of napalm in the morning.|Lt. Col. Bill Kilgore|Robert Duvall|APNO
+13|Love means never having to say you're sorry.|Jennifer Cavalleri and Oliver Barrett IV|Ali MacGraw and Ryan O'Neal|LOST
+14|The stuff that dreams are made of.|Sam Spade|Humphrey Bogart|TMF
+15|E.T. phone home.|E.T.|Pat Welsh|ET
+16|They call me Mister Tibbs!|Virgil Tibbs|Sidney Poitier|IHN
+17|Rosebud.|Charles Foster Kane|Orson Welles|CIKA
+18|Made it, Ma! Top of the world!|Arthur Cody Jarrett|James Cagney|WHHE
+19|I'm as mad as hell, and I'm not going to take this anymore!|Howard Beale|Peter Finch|NTWK
+20|Louis, I think this is the beginning of a beautiful friendship.|Rick Blaine|Humphrey Bogart|CSBL
+21|A census taker once tried to test me. I ate his liver with some fava beans and a nice Chianti.|Hannibal Lecter|Anthony Hopkins|SILA
+22|Bond. James Bond.|James Bond|Sean Connery|DRNO
+23|There's no place like home.|Dorothy Gale|Judy Garland|TWOO
+24|I am big! It's the pictures that got small.|Norma Desmond|Gloria Swanson|SUBO
+25|Show me the money!|Rod Tidwell|Cuba Gooding Jr.|JEMA
+26|Why don't you come up sometime and see me?|Lady Lou|Mae West|SDHW
+27|I'm walkin' here! I'm walkin' here!|Ratso Rizzo|Dustin Hoffman|MICO
+28|Play it, Sam. Play 'As Time Goes By.'|Ilsa Lund|Ingrid Bergman|CSBL
+29|You can't handle the truth!|Col. Nathan R. Jessup|Jack Nicholson|AFGM
+30|I want to be alone.|Grusinskaya|Greta Garbo|GRHO
+31|After all, tomorrow is another day!|Scarlett O'Hara|Vivien Leigh|GWTW
+32|Round up the usual suspects.|Capt. Louis Renault|Claude Rains|CSBL
+33|I'll have what she's having.|Customer|Estelle Reiner|WHMS
+34|You know how to whistle, don't you, Steve? You just put your lips together and blow.|Marie Slim Browning|Lauren Bacall|HHN
+35|You're gonna need a bigger boat.|Martin Brody|Roy Scheider|JWS
+36|Badges? We ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!|Gold Hat|Alfonso Bedoya|TSM
+37|I'll be back|The Terminator|Arnold Schwarzenegger|TRM
+38|Today, I consider myself the luckiest man on the face of the Earth.|Lou Gehrig|Gary Cooper|PRYA
+39|If you build it, he will come.|Shoeless Joe Jackson|Ray Liotta (voice)|FOD
+40|Mama always said life was like a box of chocolates. You never know what you're gonna get.|Forrest Gump|Tom Hanks|FOGU
+41|We rob banks.|Clyde Barrow|Warren Beatty|BOCL
+42|Plastics.|Mr. Maguire|Walter Brooke|GRD
+43|We'll always have Paris.|Rick Blaine|Humphrey Bogart|CSBL
+44|I see dead people.|Cole Sear|Haley Joel Osment|SISE
+45|Stella! Hey, Stella!|Stanley Kowalski|Marlon Brando|SND
+46|Oh, Jerry, don't let's ask for the moon. We have the stars.|Charlotte Vale|Bette Davis|NOVO
+47|Shane. Shane. Come back!|Joey Starrett|Brandon De Wilde|SHN
+48|Well, nobody's perfect.|Osgood Fielding III|Joe E. Brown|SLIH
+49|It's alive! It's alive!|Henry Frankenstein|Colin Clive|FRNK
+50|Houston, we have a problem.|Jim Lovell|Tom Hanks|A13
+51|You've got to ask yourself one question: 'Do I feel lucky?' Well, do ya, punk?|Harry Callahan|Clint Eastwood|DIHA
+52|You had me at 'hello.'|Dorothy Boyd|Renee Zellweger|JEMA
+53|One morning I shot an elephant in my pajamas. How he got in my pajamas, I don't know.|Capt. Geoffrey T. Spaulding|Groucho Marx|ANCR
+54|There's no crying in baseball!|Jimmy Dugan|Tom Hanks|LTO
+55|La-dee-da, la-dee-da.|Annie Hall|Diane Keaton|ANHA
+56|A boy's best friend is his mother.|Norman Bates|Anthony Perkins|PSCH
+57|Greed, for lack of a better word, is good.|Gordon Gekko|Michael Douglas|WAST
+58|Keep your friends close, but your enemies closer.|Michael Corleone|Al Pacino|GFII
+59|As God is my witness, I'll never be hungry again.|Scarlett O'Hara|Vivien Leigh|GWTW
+60|Well, here's another nice mess you've gotten me into!|Oliver|Oliver Hardy|SOD
+61|Say 'hello' to my little friend!|Tony Montana|Al Pacino|SCRF
+62|What a dump.|Rosa Moline|Bette Davis|BTF
+63|Mrs. Robinson, you're trying to seduce me. Aren't you?|Benjamin Braddock|Dustin Hoffman|GRD
+64|Gentlemen, you can't fight in here! This is the War Room!|President Merkin Muffley|Peter Sellers|DRST
+65|Elementary, my dear Watson.|Sherlock Holmes|Basil Rathbone|ASH
+66|Take your stinking paws off me, you damned dirty ape.|George Taylor|Charlton Heston|POA
+67|Of all the gin joints in all the towns in all the world, she walks into mine.|Rick Blaine|Humphrey Bogart|CSBL
+68|Here's Johnny!|Jack Torrance|Jack Nicholson|SHNG
+69|They're here!|Carol Anne Freeling|Heather O'Rourke|PLTG
+70|Is it safe?|Dr. Christian Szell|Laurence Olivier|MAMA
+71|Wait a minute, wait a minute. You ain't heard nothin' yet!|Jakie Rabinowitz/Jack Robin|Al Jolson|JASI
+72|No wire hangers, ever!|Joan Crawford|Faye Dunaway|MODE
+73|Mother of mercy, is this the end of Rico?|Rico Bandello|Edward G. Robinson|LICA
+74|Forget it, Jake, it's Chinatown.|Lawrence Walsh|Joe Mantell|CHNT
+75|I have always depended on the kindness of strangers.|Blanche DuBois|Vivien Leigh|SND
+76|Hasta la vista, baby.|The Terminator|Arnold Schwarzenegger|TII
+77|Soylent Green is people!|Det. Robert Thorn|Charlton Heston|SOGR
+78|Open the pod bay doors, HAL.|Dave Bowman|Keir Dullea|SPOD
+79|Striker: Surely you can't be serious. Rumack: I am serious and don't call me Shirley.|Ted Striker and Dr. Rumack|Robert Hays�and�Leslie Nielsen|ARPL
+80|Yo, Adrian!|Rocky Balboa|Sylvester Stallone|RCKY
+81|Hello, gorgeous.|Fanny Brice|Barbra Streisand|FUGI
+82|Toga! Toga!|John Bluto Blutarsky|John Belushi|ANHO
+83|Listen to them. Children of the night. What music they make.|Count Dracula|Bela Lugosi|DRCL
+84|Oh, no, it wasn't the airplanes. It was Beauty killed the Beast.|Carl Denham|Robert Armstrong|KIKO
+85|My precious.|Gollum|Andy Serkis|LRTT
+86|Attica! Attica!|Sonny Wortzik|Al Pacino|DDA
+87|Sawyer, you're going out a youngster, but you've got to come back a star!|Julian Marsh|Warner Baxter|42ST
+88|Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and I'm going to be right behind you, holding on tight, and away we're gonna go, go, go!|Ethel Thayer|Katharine Hepburn|OGP
+89|Tell 'em to go out there with all they got and win just one for the Gipper.|George Gipp|Ronald Reagan|KRAA
+90|A martini. Shaken, not stirred.|James Bond|Sean Connery|GLDF
+91|Who's on first.|Dexter|Bud Abbott|NANI
+92|Cinderella story. Outta nowhere. A former greenskeeper, now, about to become the Masters champion. It looks like a mirac...It's in the hole! It's in the hole! It's in the hole!|Carl Spackler|Bill Murray|CDSH
+93|Life is a banquet, and most poor suckers are starving to death!|Mame Dennis|Rosalind Russell|MAME
+94|I feel the need-the need for speed!|Pete Mitchell and Nick Bradshaw|Tom Cruise and Anthony Edwards|TOGU
+95|Carpe diem. Seize the day, boys. Make your lives extraordinary.|John Keating|Robin Williams|DPS
+96|Snap out of it!|Loretta Castorini|Cher|MNST
+97|My mother thanks you. My father thanks you. My sister thanks you. And I thank you.|George M. Cohan|James Cagney|YDD
+98|Nobody puts Baby in a corner.|Johnny Castle|Patrick Swayze|DIDA
+99|I'll get you, my pretty, and your little dog too!|Wicked Witch of the West|Margaret Hamilton|TWOO
+100|I'm the king of the world!|Jack Dawson|Leonardo DiCaprio|TTNC
