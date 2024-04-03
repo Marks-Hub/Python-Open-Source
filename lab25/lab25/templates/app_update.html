@@ -1,0 +1,47 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.song_id.label}}
+      <span class="error">{{ form.song_id.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.song_id}}
+   </div>
+ 
+   <div>
+      {{form.artistss.label}}
+      <span class="error">{{ form.artistss.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.artistss}}
+   </div>
+
+   <div>
+      {{form.times.label}}
+      <span class="error">{{ form.times.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.times}}
+   </div>
+
+   <div>
+      {{form.titles.label}}
+      <span class="error">{{ form.titles.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.titles}}
+   </div>
+
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}

@@ -1,0 +1,16 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Artist: {{ result["artists"] }} 
+   </p>
+   <p>
+      Time: {{ result["time"] }} 
+   </p>
+   <p>
+      Title: {{ result["title"] }} 
+   </p>
+{% endblock content %}

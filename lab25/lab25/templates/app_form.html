@@ -1,0 +1,33 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+
+   <div>
+      {{form.artists.label}}
+      <span class="error">{{ form.artists.errors | join("|") }}</span>
+      <br />
+      {{form.artists}}
+   </div>
+
+   <div>
+      {{form.time.label}}
+      <br />
+      {{form.time}}
+   </div>
+
+   <div>
+      {{form.title.label}}
+      <br />
+      {{form.title}}
+   </div>
+   <!-- SUBMIT -->
+   <div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}
