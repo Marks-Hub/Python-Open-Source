@@ -1,0 +1,13 @@
+{% extends "datatable_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<p>
+   name: {{ result["id"] }} 
+  </p>
+   <p>
+    name: {{ result["name"] }} 
+   </p>
+{% endblock content %}

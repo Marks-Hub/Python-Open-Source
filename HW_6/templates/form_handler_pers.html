@@ -1,0 +1,24 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+   <p>
+      Hello 
+      {{result["email"]}}
+   </p>
+   <p>
+      response:
+      {{result["response"]}}
+   </p>
+   <p>
+      more responses:
+      {{result["moreResponses"]}}
+   </p>
+   <p>
+      choices:
+      {{result["choices"]}}
+   </p>
+   </p>
+{% endblock content %}

@@ -1,0 +1,41 @@
+{% extends "simple_layout.html" %}
+
+{% block title %} {{title}}  {% endblock title %}
+{% block header %} {{header}}  {% endblock header %}
+
+{% block content %} 
+<form action="" method="post">
+   {{ form.csrf_token }}
+   <div>
+      {{form.email.label}}
+   </div>
+   <div>
+      {{form.email(size=30)}} 
+      <span class="error">{{ form.email.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.response.label}}
+      <span class="error">{{ form.email.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.response}}
+   </div>
+   <div>
+      {{form.moreResponses.label}}
+      <span class="error">{{ form.email.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.moreResponses}}
+   </div>
+   <div>
+      {{form.choices.label}}
+      <span class="error">{{ form.email.errors | join("|") }}</span>
+   </div>
+   <div>
+      {{form.choices}}
+   </div>
+	<div>
+      {{form.submit()}}
+   </div>
+</form>
+{% endblock content %}
